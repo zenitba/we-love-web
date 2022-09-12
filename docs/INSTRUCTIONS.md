@@ -17,7 +17,7 @@ Ook delen ze deze kennis met hun team en brengen dit in praktijk met inachtnemin
 ## Werkwijze
 
 Houd een in een blog je aantekeningen bij van de We ♥ Web sessies. 
-Je kan ook hier ook een eigen artikel schrijven of op een andere manier duidelijk maken dat je op de hoogte blijft van de (internationale) ontwikkelingen in het vakgebied.
+Je kan ook ook een eigen artikel schrijven of op een andere manier duidelijk maken dat je op de hoogte blijft van de (internationale) ontwikkelingen in het vakgebied.
 
 
 ## Criteria
