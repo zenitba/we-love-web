@@ -21,7 +21,7 @@ Houd een in een blog je aantekeningen bij van de We ♥ Web sessies. Je kan ook 
 
 Deze leertaak hoort bij het gedragscriterium van _Lerend Vermogen_:
 
-- Volgt aangeboden internanationale ontwikkelingen in het vakgbied ~~en maakt onder begeleiding keuzes over eigen ontwikkeling~~.
+- Volgt aangeboden internationale ontwikkelingen in het vakgbied ~~en maakt onder begeleiding keuzes over eigen ontwikkeling~~.
 
 
 
