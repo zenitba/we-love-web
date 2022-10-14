@@ -10,15 +10,13 @@ Deze leertaak hoort bij alle semesters.
 ## Doel van deze opdracht
 
 Het vakgebied van de Frontender verandert voortdurend. 
-Frontenders omarmen verandering en blijven op de hoogte van trends op het gebied van technologie, digitaal- en interactie ontwerp. 
-Ook delen ze deze kennis met hun team en brengen dit in praktijk met inachtneming van geldende standaarden.
+Frontenders blijven op de hoogte van trends op het gebied van technologie, digitaal- en interactie ontwerp. 
 
 
 ## Werkwijze
 
-Houd een in een blog je aantekeningen bij van de We ♥ Web sessies. 
+Elke sprint worden gastsprekers uitgenodigd voor de We ♥ Web. Houd in een blog je aantekeningen bij van deze sessies. 
 Je kan ook ook een eigen artikel schrijven of op een andere manier duidelijk maken dat je op de hoogte blijft van de (internationale) ontwikkelingen in het vakgebied.
-
 
 ## Criteria
 
