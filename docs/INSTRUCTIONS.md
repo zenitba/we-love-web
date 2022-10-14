@@ -5,7 +5,7 @@ Een blog voor het bijhouden van de We ♥ Web sessies.
 
 ## Context
 
-Deze leertaak hoort bij Semester 3. 
+Deze leertaak hoort bij alle semesters. 
 
 ## Doel van deze opdracht
 
@@ -24,7 +24,18 @@ Je kan ook ook een eigen artikel schrijven of op een andere manier duidelijk mak
 
 Deze leertaak hoort bij het gedragscriterium van _Lerend Vermogen_:
 
+Semester 1
+- Benoemt behandelde internationale ontwikkelingen in het vakgebied.
+
+Semester 2
+- Volgt aangeboden internationale ontwikkelingen in het vakgebied.
+
+Semester 3
 - Volgt aangeboden internationale ontwikkelingen in het vakgbied ~~en maakt onder begeleiding keuzes over eigen ontwikkeling~~.
+
+Semester 4
+- Blijft op de hoogte van internationale ontwikkelingen in het vakgebied ~~, omarmt verandering en maakt zelfstandig keuzes over eigen ontwikkeling~~.
+          
 
 
 
