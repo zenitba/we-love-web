@@ -9,13 +9,15 @@ Deze leertaak hoort bij alle semesters.
 
 ## Doel van deze opdracht
 
-Het vakgebied van de Frontender verandert voortdurend. 
-Frontenders blijven op de hoogte van trends op het gebied van technologie, digitaal- en interactie ontwerp. 
-
+Lerem pp de hoogte te blijven van internationale ontwikkelingen die van belang zijn voor een frontender.
 
 ## Werkwijze
 
-Elke sprint worden gastsprekers uitgenodigd voor de We ♥ Web. Houd in een blog je aantekeningen bij van deze sessies. 
+Het frontend vakgebied verandert voortdurend. 
+Een goede frontender blijft op de hoogte van internationale ontwikkelingen en trends op het gebied van technologie, digitaal- en interactie ontwerp. 
+Hierom worden Bij FDND elke sprint gastsprekers uitgenodigd tijdens de We ♥ Web sessies. 
+
+Houd in een blog je aantekeningen bij van deze sessies. 
 Je kan ook ook een eigen artikel schrijven of op een andere manier duidelijk maken dat je op de hoogte blijft van de (internationale) ontwikkelingen in het vakgebied.
 
 ## Criteria
