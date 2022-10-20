@@ -9,7 +9,7 @@ Deze leertaak hoort bij alle semesters.
 
 ## Doel van deze opdracht
 
-Lerem pp de hoogte te blijven van internationale ontwikkelingen die van belang zijn voor een frontender.
+Leren op de hoogte te blijven van internationale ontwikkelingen die van belang zijn voor een frontender.
 
 ## Werkwijze
 
