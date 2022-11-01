@@ -31,10 +31,10 @@ Semester 2
 - Je volgt aangeboden internationale ontwikkelingen in het vakgebied.
 
 Semester 3
-- Je volgt aangeboden internationale ontwikkelingen in het vakgbied ~~en maakt onder begeleiding keuzes over eigen ontwikkeling~~.
+- Je volgt aangeboden internationale ontwikkelingen in het vakgebied en maakt onder begeleiding keuzes over eigen ontwikkeling.
 
 Semester 4
-- Je blijft op de hoogte van internationale ontwikkelingen in het vakgebied ~~, omarmt verandering en maakt zelfstandig keuzes over eigen ontwikkeling~~.
+- Je blijft op de hoogte van internationale ontwikkelingen in het vakgebied, omarmt verandering en maakt zelfstandig keuzes over eigen ontwikkeling.
           
 
 
