@@ -1,214 +1,214 @@
+/* Algemene stijlen voor de pagina */
 body {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: Helvetica, Arial, sans-serif;
-  min-height: 100vh;
-  min-width: 100vw;
-  background: rgba(188, 105, 138, 0.5);
-  background-image: radial-gradient(circle at bottom left, rgba(255, 255, 0, 0.9), rgba(255, 255, 0, 0) 70%),
-    radial-gradient(circle at top left, rgb(255, 0, 212), rgba(255, 153, 0, 0) 70%),
-    radial-gradient(circle at center right, rgba(221, 0, 255, 0.8), rgba(166, 0, 255, 0) 50%);
-  background-size: 200% 200%;
-  animation: movement 30s ease infinite alternate-reverse;
-}
-
-@keyframes movement {
-  0% {
-    background-position: 0% 0%;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, Arial, sans-serif;
+	min-height: 100vh;
+	min-width: 100vw;
+	background: linear-gradient(45deg, #caf0fe, #004d65); /* Achtergrondkleur */
+	animation: movement 30s ease infinite alternate-reverse;
   }
-  25% {
-    background-position: 50% 0%;
+  
+  /* Animatie van de achtergrond */
+  @keyframes movement {
+	0% {
+	  background-position: 0% 0%;
+	}
+	25% {
+	  background-position: 50% 0%;
+	}
+	50% {
+	  background-position: 100% 50%;
+	}
+	75% {
+	  background-position: 50% 100%;
+	}
+	100% {
+	  background-position: 100% 100%;
+	}
   }
-  50% {
-    background-position: 100% 50%;
-  }
-  75% {
-    background-position: 50% 100%;
-  }
-  100% {
-    background-position: 100% 100%;
-  }
-}
-.slider{
-  height: 185px;
+  
+  /* Stijlen voor de slider bovenaan de pagina */
+  .slider {
+	height: 185px;
 	text-align: center;
 	position: relative;
 	animation: slideColor 10s forwards infinite;
-}
-
-.caption{
+  }
+  
+  /* Stijlen voor de titel in de slider */
+  .caption {
 	line-height: 100px;
 	font-size: 90px;
 	color: #fff;
 	position: relative;
 	top: 50%;
 	transform: translateY(-50%);
-	text-shadow: 0px 5px 5px rgba(0,0,0,.25);
+	text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
 	margin-left: -300px;
-}
-
-.text-box{
+  }
+  
+  /* Stijlen voor de tekstbox in de slider */
+  .text-box {
 	display: inline-block;
 	position: relative;
-}
-
-.text-box div{
+  }
+  
+  /* Animaties voor de tekst in de slider */
+  .text-box div {
 	display: inline-block;
 	position: absolute;
 	top: -200px;
 	transform: rotateX(-90deg);
 	opacity: 0;
-	text-shadow: 0px 5px 5px rgba(0,0,0,.25);
+	text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
 	animation-timing-function: ease;
-}
-
-.text-box div:nth-child(1){
-	animation: rollDown 10s forwards infinite;
-}
-
-.text-box div:nth-child(2){
-	animation: rollDown2 10s forwards infinite;
-}
-
-.text-box div:nth-child(3){
-	animation: rollDown3 10s forwards infinite;
-}
-
-@keyframes rollDown {
-	0%{
-		top: -200px;
-		transform: rotateX(-90deg);
-	}
-	11%{
-		top: -74px;
-		transform: rotateX(0deg);
-		opacity: 1;
-	}
-	22%{
-		top: -74px;
-		transform: rotateX(0deg);
-		opacity: 1;
-	}
-	33%{
-		top: 50px;
-		transform: rotateX(30deg);
-		opacity: 0;
-	}
-}
-
-@keyframes rollDown2 {
-	33%{
-		top: -200px;
-		transform: rotateX(-90deg);
-	}
-	44%{
-		top: -74px;
-		transform: rotateX(0deg);
-		opacity: 1;
-	}
-	55%{
-		top: -74px;
-		transform: rotateX(0deg);
-		opacity: 1;
-	}
-	66%{
-		top: 50px;
-		transform: rotateX(30deg);
-		opacity: 0;
-	}
-}
-
-@keyframes rollDown3 {
-	66%{
-		top: -200px;
-		transform: rotateX(-90deg);
-	}
-	77%{
-		top: -74px;
-		transform: rotateX(0deg);
-		opacity: 1;
-	}
-	88%{
-		top: -74px;
-		transform: rotateX(0deg);
-		opacity: 1;
-	}
-	99%{
-		top: 50px;
-		transform: rotateX(30deg);
-		opacity: 0;
-	}
-}
-
-.card{
- height: fit-content;
- width: 80vw;
- margin: 5%;
- margin-left: 10vw;
- background: rgba(255, 255, 255, 0.6);
- backdrop-filter: blur(1rem);
- border-radius: 3rem;
- border: 1px solid rgba(255, 255, 255, 0.2);
- box-shadow: 0.9rem 0.9rem 1.6rem 0 rgb(255, 251, 251), -0.8rem -0.8rem 1.6rem 0 rgb(255, 255, 255);
- display: flex;
- flex-direction: column;
- align-items: center;
-}
-
-
-h2{
-  color: #ffffff;
-  font-size: 3rem;
-  text-shadow: 0px 5px 5px rgba(0,0,0,.25);
-
-}
-
-h3{
-  margin-top: -0.8rem;
-  font-size: 2rem;
-	text-transform: uppercase;
-	background: linear-gradient(to right, #ff00aa 0%, #b300ff 100%);
-	-webkit-background-clip:text;
-	-webkit-text-fill-color: transparent;
-
-}
-p{
-  font-size: 1.9rem;
-  overflow: hidden;
-color: #ffffff;  
-}
-ul{
-  font-size: 1.9rem;
-  overflow: hidden;
- color: #ffffff; 
- text-align: justify;
-}
-.row {
-  margin: 0 -5px;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-@media screen and (max-width: 600px) {
-  .slider{
-    width: 100%;
-    display: block;
-    }
-  .column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
   }
+  
+  /* Animatie voor de eerste tekst in de slider */
+  .text-box div:nth-child(1) {
+	animation: rollDown 8s forwards infinite;
+  }
+  
+  /* Animatie voor de tweede tekst in de slider */
+  .text-box div:nth-child(2) {
+	animation: rollDown2 8.7s forwards infinite;
+  }
+  
+  /* Animatie voor de derde tekst in de slider */
+  .text-box div:nth-child(3) {
+	animation: rollDown3 9.4s forwards infinite;
+  }
+  
+  /* Keyframes voor de tekstanimaties */
+  @keyframes rollDown {
+	0% {
+	  top: -200px;
+	  transform: rotateX(-90deg);
+	}
+	11% {
+	  top: -74px;
+	  transform: rotateX(0deg);
+	  opacity: 1;
+	}
+	22% {
+	  top: -74px;
+	  transform: rotateX(0deg);
+	  opacity: 1;
+	}
+	33% {
+	  top: 50px;
+	  transform: rotateX(30deg);
+	  opacity: 0;
+	}
+  }
+  
+  
+	@keyframes rollDown2 {
+		0% {
+		  top: -200px;
+		  transform: rotateX(-90deg);
+		}
+		11% {
+		  top: -74px;
+		  transform: rotateX(0deg);
+		  opacity: 1;
+		}
+		22% {
+		  top: -74px;
+		  transform: rotateX(0deg);
+		  opacity: 1;
+		}
+		33% {
+		  top: 50px;
+		  transform: rotateX(30deg);
+		  opacity: 0;
+		}
+	  }
+  
+  
+	  @keyframes rollDown3 {
+		0% {
+		  top: -200px;
+		  transform: rotateX(-90deg);
+		}
+		11% {
+		  top: -74px;
+		  transform: rotateX(0deg);
+		  opacity: 1;
+		}
+		22% {
+		  top: -74px;
+		  transform: rotateX(0deg);
+		  opacity: 1;
+		}
+		33% {
+		  top: 50px;
+		  transform: rotateX(30deg);
+		  opacity: 0;
+		}
+	  }
+  
+  
+  /* Stijlen voor de kaarten (cards) op de pagina */
+  .card {
+	height: fit-content;
+	width: 80vw;
+	margin: 5%;
+	margin-left: 10vw;
+	background: rgba(255, 255, 255, 0.6);
+	backdrop-filter: blur(1rem);
+	border-radius: 3rem;
+	border: 5px solid rgba(255, 255, 255, 0.2);
+	box-shadow: 0.9rem 0.9rem 1.6rem 0 rgba(255, 255, 255, 0.5); /* Witte gloed */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  /* Stijlen voor de kop (h2) in de kaarten */
+  h2 {
+	color: #ffffff;
+	font-size: 3rem;
+	text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+  }
+  
+  /* Stijlen voor de subkop (h3) in de kaarten */
+  h3 {
+	margin-top: -0.8rem;
+	font-size: 2rem;
+	text-transform: uppercase;
+	background: linear-gradient(to right, #438aa4 0%,#004d65  100%); /* Kleuren aangepast */
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+  }
+  
+  /* Stijlen voor de alinea's (p) in de kaarten */
+  p {
+	font-size: 1.7rem;
+	overflow: hidden;
+	color: #075c76;
+  }
+  
+  /* Stijlen voor de opsommingstekens (ul) in de kaarten */
+  ul {
+    font-size: 1.9rem;
+    overflow: hidden;
+    color: #0d617a;
+    text-align: justify;
+    list-style-type: disc; /* Of een ander gewenst opsommingsteken zoals 'disc' */
+    padding-left: 20px; /* Afstand vanaf de linkermarge */
 }
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
-  text-align: center;
-  background-color: #dbdbdb7c;
-}
+  
+  /* Stijlen voor de rij (row) */
+  .row {
+	margin: 0 -5px;
+  }
+  
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
